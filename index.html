@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="assets/css/rest.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+</head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<body>
+    <div class="jumbotron text-center">
+        <h1>Crystal Collector</h1></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 instructions">
+                <h2>Instructions</h2>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>Score to match: <span id="scoreToMatch"></span></h2>
+            </div>
+        <div class="col-sm-3">
+            <h3>Win: <span id="wins"></span></h3>
+            <h3 class="text-left">Losses: <span id="losses"></span></h3>
+        </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-3">
+                    <img src="assets/images/RedJem.png" class="img-thumnail red" alt="Red Jem" width="200" height="200" />
+                </div>
+
+            <div class="col-sm-3">
+            <img src="assets/images/DarkBlueJem.png" class="img-thmbnail blue" alt="Blue Jem" width="200" height="200" />
+            </div>
+
+            <div class="col-sm-3">
+            <img src="assets/images/LightBlueJem2.png" class="img-thumnail Light Blue" alt="Light Blue Gem" width="200" height="200" />
+            </div>
+
+            <div class="col-sm-3">
+            <img src="assets/images/GreenJem.png" class="img-thumnail Green" alt="Green Gem" width="200" height="200" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+            <h2>Your total score is: <span id="totalScore"></span></h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
